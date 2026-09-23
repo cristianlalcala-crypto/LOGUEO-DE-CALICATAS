@@ -9,7 +9,7 @@ source.include_exts = py,json,jpg,jpeg,png
 version = 1.0
 
 # openpyxl es puro Python (no requiere compilacion nativa) -> funciona en p4a
-requirements = python3==3.11.9,kivy==2.3.1,openpyxl,et_xmlfile,pillow
+requirements = python3==3.11.9,hostpython3==3.11.9,kivy==2.3.1,openpyxl,et_xmlfile,pillow
 
 orientation = portrait
 fullscreen = 0
