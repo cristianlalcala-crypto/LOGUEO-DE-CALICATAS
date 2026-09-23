@@ -1,0 +1,20 @@
+{
+  "simbolo_uscs": ["GW","GP","GM","GC","SW","SP","SM","SC","ML","CL","OL","MH","CH","OH","PT",
+                    "GW-GM","GW-GC","GP-GM","GP-GC","SW-SM","SW-SC","SP-SM","SP-SC","CL-ML"],
+  "color": ["Café","Café claro","Café oscuro","Café rojizo","Café amarillento","Café grisáceo",
+            "Gris","Gris claro","Gris oscuro","Gris verdoso","Gris azuloso","Negro",
+            "Amarillo","Amarillo ocre","Rojo","Rojizo","Naranja","Beige","Blanco","Moteado"],
+  "humedad": ["Seco","Húmedo","Mojado"],
+  "consistencia_compacidad": ["Muy blanda","Blanda","Media","Firme","Muy firme","Dura",
+                               "Muy suelta","Suelta","Media (granular)","Densa","Muy densa"],
+  "plasticidad": ["No plástico","Baja plasticidad","Media plasticidad","Alta plasticidad"],
+  "resistencia_seca": ["Nula","Baja","Media","Alta","Muy alta"],
+  "dilatancia": ["Nula","Lenta","Rápida"],
+  "tenacidad": ["Baja","Media","Alta"],
+  "estructura": ["Homogénea","Estratificada","Laminada","Fisurada","En bloques","Lenticular","Con intercalaciones"],
+  "forma_particulas": ["Angular","Subangular","Subredondeada","Redondeada","No aplica"],
+  "tamano_max_particula": ["No aplica (suelo fino)","Fina (<2 mm)","Grava fina (2-6 mm)",
+                            "Grava media (6-20 mm)","Grava gruesa (20-60 mm)","Boleo (60-200 mm)","Bloque (>200 mm)"],
+  "reaccion_hcl": ["Ninguna","Débil","Fuerte"],
+  "olor": ["Ninguno","Orgánico leve","Orgánico fuerte","Inusual"]
+}
