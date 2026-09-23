@@ -24,8 +24,7 @@ jobs:
 
       - name: Compilar APK
         run: |
-          cd android_app
-          buildozer -v android debug
+          echo "pip==24.0" > /tmp/pip-constraint.txt export PIP_CONSTRAINT=/tmp/pip-constraint.txt cd android_app buildozer -v android debug
 
       - uses: actions/upload-artifact@v4
         with:
