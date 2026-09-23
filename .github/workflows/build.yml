@@ -23,7 +23,7 @@ jobs:
           pip install buildozer cython
 
       - name: Compilar APK
-        run: cd android_app && echo "pip==24.0" > /tmp/pip-constraint.txt && export PIP_CONSTRAINT=/tmp/pip-constraint.txt && buildozer -v android debug
+        run: cd android_app && export JAVA_HOME=$JAVA_HOME_17_X64 && echo "pip==24.0" > /tmp/pip-constraint.txt && export PIP_CONSTRAINT=/tmp/pip-constraint.txt && buildozer -v android debug
       - uses: actions/upload-artifact@v4
         with:
           name: apk
